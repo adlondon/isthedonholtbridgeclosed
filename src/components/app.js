@@ -39,7 +39,11 @@ export default class App extends Component {
           {open
             ? <div className={`blue`}>OPEN</div>
             : <div className={`red`}>CLOSED</div>}</div>
+<<<<<<< HEAD
         <p>Idea from <a href="https://isthecooperriverbridgeclosed.com">isthecooperriverbridgeclosed.com</a> by Sean McCambridge. Photo by <a href="https://i.pinimg.com/originals/9b/5b/bd/9b5bbd3cf02efd9ff53cde48f0fcad63.jpg">Meredith Jones</a>. Website by <a href="mailto:london.andrewd@gmail.com">Andrew London</a>. <br /> Updated {this.time()}</p>
+=======
+        <p>Idea from <a href="https://isthecooperriverbridgeclosed.com">isthecooperriverbridgeclosed.com</a> by Sean McCambridge. Photo by <a href="https://i.pinimg.com/originals/9b/5b/bd/9b5bbd3cf02efd9ff53cde48f0fcad63.jpg">Meredith Jones</a>. Website by <a href="mailto:london.andrewd@gmail.com">Andrew London</a>. <br /> Updated 1/3/2017 at 11:18 am.</p>
+>>>>>>> 6fbdf7eb369400161b8a049ba48ef88a66d15116
       </div>
     );
   }
