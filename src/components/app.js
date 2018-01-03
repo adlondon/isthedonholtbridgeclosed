@@ -37,7 +37,7 @@ export default class App extends Component {
       <div className="page-wrapper">
         <div className="status">
           {open
-            ? <div className={`blue`}>OPEN<span className="subtext">(but it's slippery)</span></div>
+            ? <div className={`blue`}>OPEN<span className="subtext">(yes whackadoodles are still driving)</span></div>
             : <div className={`red`}>CLOSED</div>}</div>
           <p>Idea from <a href="https://isthecooperriverbridgeclosed.com">isthecooperriverbridgeclosed.com</a> by Sean McCambridge. Photo by <a href="https://i.pinimg.com/originals/9b/5b/bd/9b5bbd3cf02efd9ff53cde48f0fcad63.jpg">Meredith Jones</a>. Website by <a href="mailto:london.andrewd@gmail.com">Andrew London</a>. <br /> Updated 1/3/2017 at 2:37 PM</p>
       </div>
