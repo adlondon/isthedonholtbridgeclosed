@@ -42,6 +42,9 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
   },
+  node: {
+     fs: "empty"
+  },
   plugins: [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin({

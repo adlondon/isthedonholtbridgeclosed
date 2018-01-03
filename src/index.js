@@ -11,6 +11,8 @@ import reducers from './reducers';
 const createStoreWithMiddleware = compose(applyMiddleware(reduxThunk)(createStore));
 const store = createStoreWithMiddleware(reducers);
 import './../sass/style.scss';
+require('dotenv').config({path: __dirname + '/.env'})
+
 
 ReactDOM.render(
   <Provider store={store}>
