@@ -28,6 +28,8 @@ body {
   padding: 50px;
   font-size: 50px;
   background-color: $blue;
+  display: flex;
+  flex-direction: column;
 }
 
 .status {
@@ -36,6 +38,10 @@ body {
   align-items: center;
   flex: 1;
   text-align: center;
+}
+
+.subtext {
+  font-size: 18px;
 }
 
 p {
